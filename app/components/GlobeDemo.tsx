@@ -2,7 +2,7 @@ import Globe from "@/components/magicui/globe";
 
 export function GlobeDemo() {
   return (
-    <div className="relative flex h-full max-w-full items-center justify-center overflow-hidden rounded-lg border bg-background px-40 pb-40 pt-8 md:pb-60 md:shadow-xl">
+    <div className="relative flex h-full w-[300px] sm:w-[400px] md:w-[600px] items-center justify-center overflow-hidden rounded-lg border bg-background px-40 pb-40 pt-8 md:pb-60 md:shadow-xl">
       <span className=" top-3 pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-4xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Global reach, 
       </span>

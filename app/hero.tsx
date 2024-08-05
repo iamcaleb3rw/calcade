@@ -13,6 +13,7 @@ import maskSvg from '../public/mask.svg'
 import { GlobeDemo } from './components/GlobeDemo'
 import { GlowingStarsBackgroundCard, GlowingStarsTitle } from '@/components/ui/glowing-stars'
 import Link from 'next/link'
+import Globe from '@/components/magicui/globe'
 const avatarUrls = [
   "https://avatars.githubusercontent.com/u/16860528",
   "https://avatars.githubusercontent.com/u/20110627",
@@ -24,7 +25,7 @@ const phoneNumber = "+250788511561"
 
 export default function Hero() {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
         <GridBeam className="sm:pl-16 px-[20px] py-[100px] flex flex-col items-start gap-7 sm:items-center  lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-col gap-4">
                 <div
@@ -51,7 +52,7 @@ export default function Hero() {
           </div>
           <div className='flex flex-col items-center'>
             <div>
-             <GlobeDemo />
+             <GlobeDemo/>
             </div>
 
               

@@ -13,7 +13,7 @@ import Ripple from '@/components/magicui/ripple'
 
 function GridSection() {
   return (
-      <div className='bg-backgrounds min-h-screen text-primary flex flex-col items-center py-16 gap-4 px-16 mb-20'>
+      <div className='bg-backgrounds min-h-screen text-primary flex flex-col items-center py-16 gap-4 px-10 lg:px-16 mb-20'>
           <div className='rounded-2xl relative border w-[fit-content]'>
             <Image alt='icon feature' src={SectionIcon} className='w-14'/>
             <BorderBeam size={250} duration={5} delay={9} />
