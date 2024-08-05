@@ -50,7 +50,7 @@ export default function Navbar() {
             <div>
                 <ModeToggle />
             </div>
-           <div>
+           {/* <div>
                 <Drawer>
                         <DrawerTrigger className='border p-2 rounded-md'>
                             <AlignJustifyIcon />
@@ -95,7 +95,7 @@ export default function Navbar() {
                             </DrawerFooter>
                         </DrawerContent>
                 </Drawer>
-           </div>
+           </div> */}
         </div>
         
     </div>
