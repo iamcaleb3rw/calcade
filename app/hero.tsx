@@ -44,7 +44,9 @@ export default function Hero() {
                     <Link href={`tel:${phoneNumber}`}>
                         <Button >Hop on a call</Button>
                     </Link>
-                    <Button variant="outline">Our team</Button>
+                    <Link>
+                        <Button variant="outline">Our team</Button>
+                    </Link>
                 </div>
 
             <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />
