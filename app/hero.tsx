@@ -44,7 +44,7 @@ export default function Hero() {
                     <Link href={`tel:${phoneNumber}`}>
                         <Button >Hop on a call</Button>
                     </Link>
-                    <Link>
+                    <Link href='/contact'>
                         <Button variant="outline">Our team</Button>
                     </Link>
                 </div>
