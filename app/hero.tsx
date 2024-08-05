@@ -12,12 +12,15 @@ import AvatarCircles from '@/components/magicui/avatar-circles'
 import maskSvg from '../public/mask.svg'
 import { GlobeDemo } from './components/GlobeDemo'
 import { GlowingStarsBackgroundCard, GlowingStarsTitle } from '@/components/ui/glowing-stars'
+import Link from 'next/link'
 const avatarUrls = [
   "https://avatars.githubusercontent.com/u/16860528",
   "https://avatars.githubusercontent.com/u/20110627",
   "https://avatars.githubusercontent.com/u/106103625",
   "https://avatars.githubusercontent.com/u/59228569",
 ];
+
+const phoneNumber = "+250788511561"
 
 export default function Hero() {
   return (
@@ -37,7 +40,9 @@ export default function Hero() {
                 <BlurIn word={<div>Websites that <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>elevate</span> <br /> your online <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>presence</span></div>} className="text-2xl sm:text-3xl md:text-4xl lg:5xl font-semibold text-primary mb-4"/>
                 <BlurIn word={<p>Reach out the our team our web developers <br /> for professional looking websites</p>} className='text-muted-foreground' />
                 <div className='flex gap-1'>
-                    <Button >Get a website</Button>
+                    <Link href={`tel:${phoneNumber}`}>
+                        <Button >Hop on a call</Button>
+                    </Link>
                     <Button variant="outline">Our team</Button>
                 </div>
 
