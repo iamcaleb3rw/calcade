@@ -18,30 +18,30 @@ import {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Ecommerce websites",
-    href: "/",
+    href: "#",
     description:
       "Websites for selling digital all other products on the internet",
   },
   {
     title: "Personal websites",
-    href: "/docs/primitives/hover-card",
+    href: "#",
     description:
       "Websites for your own personal portofolio. Optimised for artists, influencers and so on.",
   },
   {
     title: "Institution Websites",
-    href: "/",
+    href: "#",
     description:
       "Websites for established companies, institutions and NGOs",
   },
   {
     title: "School websites",
-    href: "/",
+    href: "#",
     description: "Websites for schools to showcase achievements, announcements, and registrarion information",
   },
   {
     title: "Startup Landing pages",
-    href: "/",
+    href: "#",
     description:
       "Websites for companies that are raising funds, or still in development.",
   },
@@ -77,13 +77,13 @@ export function NavigationMenuDemo() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Web design">
+              <ListItem href="#" title="Web design">
                 Wireframing, UI and UX research as well as User flows.
               </ListItem>
-              <ListItem href="/docs/installation" title="Development">
+              <ListItem href="#" title="Development">
                 We transform any idea or design into code using modern programming frameworks
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Web maintenance">
+              <ListItem href="#" title="Web maintenance">
                 We maintain already exisiting websites, finding bugs and fixing them.
               </ListItem>
             </ul>
