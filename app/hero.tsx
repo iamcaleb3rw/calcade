@@ -39,7 +39,7 @@ export default function Hero() {
                 </AnimatedShinyText>
                </div>
                 <BlurIn word={<div>Websites that <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>elevate</span> <br /> your online <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text'>presence</span></div>} className="text-2xl sm:text-3xl md:text-4xl lg:5xl font-semibold text-primary mb-4"/>
-                <BlurIn word={<p>Reach out the our team our web developers <br /> for professional looking websites</p>} className='text-muted-foreground' />
+                <BlurIn word={<p>Reach out to our team of web developers <br /> for professional looking websites</p>} className='text-muted-foreground' />
                 <div className='flex gap-1'>
                     <Link href={`tel:${phoneNumber}`}>
                         <Button >Hop on a call</Button>
